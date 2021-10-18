@@ -61,6 +61,17 @@ h2 {
     font-size: 18px;
 }
 
+.header {
+    display: flex;
+}
+
 .footer {
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstline {
+    display: flex;
 }
