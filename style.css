@@ -6,6 +6,7 @@ body {
 
 header, .footer {
     background-color: #1F2937;
+    display: flex;
 }
 
 h1, .logo, .footer {
@@ -19,6 +20,8 @@ a, .subtext {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
 
 a {
@@ -37,6 +40,7 @@ h1 {
 
 .signup, button {
     background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 h2 {
@@ -61,17 +65,34 @@ h2 {
     font-size: 18px;
 }
 
-.header {
-    display: flex;
+header {
+    flex-direction: column;
+    padding: 24px 200px;
 }
 
 .footer {
     font-size: 18px;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .firstline {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.headerinfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px 180px;
+}
+
+.maininfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictures {
     display: flex;
 }
