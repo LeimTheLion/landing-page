@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    flex: 1;
 }
 
 header, .footer {
@@ -27,7 +26,7 @@ a, .subtext {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 a {
@@ -53,6 +52,7 @@ h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    padding-top: 50px;
 }
 
 .quote {
@@ -79,6 +79,7 @@ h2 {
 .text {
     color: gray;
     font-size: 18px;
+    text-align: center;
 }
 
 header {
@@ -115,11 +116,12 @@ header {
     align-items: center;
     justify-content: center;
     gap: 52px;
-    flex: 1;
+    flex: 1 1;
 }
 
 .pictures {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: center;
     gap: 52px;
@@ -133,7 +135,7 @@ header {
 }
 
 .text {
-    max-width: 350px;
+    max-width: 300px;
 }
 
 .signup {
@@ -144,6 +146,7 @@ header {
     padding: 100px;
     gap: 200px;
     margin: 200px;
+    border-radius: 8px;
 }
 
 .subscribe {
@@ -159,6 +162,11 @@ header {
 .button1, .button2 {
     padding: 8px 48px;
     border-radius: 8px;
+    font-weight: 700;
+}
+
+.button1 {
+    border: 2px solid #3882F6;
 }
 
 .button2 {
