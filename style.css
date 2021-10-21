@@ -1,7 +1,13 @@
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: Verdana, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    flex: 1;
 }
 
 header, .footer {
@@ -61,11 +67,13 @@ h2 {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    align-self: center;
 }
 
 .whosaidit {
     font-weight: 700;
-    align-self: flex-end;
+    align-self: center;
+    margin-left: 800px;
 }
 
 .text {
@@ -86,6 +94,7 @@ header {
     left: 0;
     right: 0;
     height: 100px;
+    flex-shrink: 0;
 }
 
 .firstline {
@@ -106,6 +115,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 52px;
+    flex: 1;
 }
 
 .pictures {
@@ -126,3 +136,35 @@ header {
     max-width: 350px;
 }
 
+.signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    padding: 100px;
+    gap: 200px;
+    margin: 200px;
+}
+
+.subscribe {
+    font-weight: 700;
+}
+
+.justnofooter {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.button1, .button2 {
+    padding: 8px 48px;
+    border-radius: 8px;
+}
+
+.button2 {
+    border: 2px solid white;
+}
+
+img {
+    border-radius: 8px;
+}
